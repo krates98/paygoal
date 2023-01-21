@@ -1,0 +1,38 @@
+.titleBox {
+  background-color: transparent;
+  position: absolute;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+  max-width: 50%;
+  max-height: 100%;
+  overflow: hidden;
+  padding: 1em 2em;
+  text-align: center;
+}
+
+.titleBox h1 {
+  font-weight: 700;
+  background-image: linear-gradient(to right, #8d2cd3, #3072da);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.titleBox h5 {
+  margin-top: 10%;
+  font-weight: 300;
+  background-image: linear-gradient(to right, #8d2cd3, #3072da);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.titleBox .getstarted {
+  margin-top: 10%;
+  background-image: linear-gradient(to right, #8d2cd3, #3072da);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}

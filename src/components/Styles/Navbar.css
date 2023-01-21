@@ -1,0 +1,29 @@
+.navbar {
+  z-index: 2;
+}
+
+.navbar-nav {
+  text-transform: uppercase;
+}
+
+.nav-link {
+  background-image: linear-gradient(to right, #8d2cd3, #3072da);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.nav-link active {
+  background-image: linear-gradient(to left, #8d2cd3, #3072da);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.nav-link .signup,
+.login {
+  background-image: linear-gradient(to right, #8d2cd3, #3072da);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
