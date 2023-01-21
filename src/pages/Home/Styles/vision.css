@@ -1,0 +1,10 @@
+.vision {
+  z-index: 2;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.vision h1 {
+  color: black;
+}

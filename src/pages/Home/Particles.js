@@ -2,20 +2,17 @@ import React, { useCallback } from "react";
 import { loadFull } from "tsparticles";
 import Particles from "react-particles";
 
-import "./Styles/firstSlide.css";
+import "./Styles/particle.css";
 
-const FirstSlide = () => {
+const Particle = () => {
   const particlesInit = useCallback(async (engine) => {
-    console.log(engine);
     // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
     // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
     // starting from v2 you can add only the features you need reducing the bundle size
     await loadFull(engine);
   }, []);
 
-  const particlesLoaded = useCallback(async (container) => {
-    console.log(container);
-  }, []);
+  const particlesLoaded = useCallback(async (container) => {}, []);
   return (
     <div className="particles">
       <Particles
@@ -29,6 +26,7 @@ const FirstSlide = () => {
             },
           },
           fpsLimit: 120,
+
           interactivity: {
             events: {
               onClick: {
@@ -80,13 +78,18 @@ const FirstSlide = () => {
                 enable: true,
                 area: 800,
               },
-              value: 150,
+              value: 80,
             },
             opacity: {
               value: 0.5,
             },
             shape: {
-              type: "circle",
+              type: "image",
+              image: {
+                src: "/rupeesymbol.svg", // Set image path.
+                width: 3, // Width and height don't decide size.
+                height: 3, // They just decide aspect ratio.
+              },
             },
             size: {
               value: { min: 1, max: 5 },
@@ -102,4 +105,4 @@ const FirstSlide = () => {
   );
 };
 
-export default FirstSlide;
+export default Particle;

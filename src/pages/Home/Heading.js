@@ -8,7 +8,7 @@ const Heading = () => {
         The fastest and easiest way to collect payments and make payouts for
         growing business
       </h5>
-      <button type="button" class="btn btn-primary btn-lg getstarted">
+      <button type="button" className="btn btn-primary btn-lg getstarted">
         Get Started
       </button>
     </div>

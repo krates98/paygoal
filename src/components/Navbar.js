@@ -54,7 +54,7 @@ const Navbar = () => {
               aria-current="page"
               href="https://www.google.com"
             >
-              <button type="button" class="btn btn-primary signup">
+              <button type="button" className="btn btn-primary signup">
                 Sign Up
               </button>
             </a>
@@ -63,7 +63,7 @@ const Navbar = () => {
               aria-current="page"
               href="https://www.google.com"
             >
-              <button type="button" class="btn btn-primary login">
+              <button type="button" className="btn btn-primary login">
                 Login
               </button>
             </a>

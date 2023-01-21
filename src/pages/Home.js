@@ -1,12 +1,14 @@
 import React from "react";
-import Particles from "./Home/Particles";
+import Particle from "./Home/Particles";
 import Heading from "./Home/Heading";
+import Vision from "./Home/Vision";
 
 const Home = () => {
   return (
     <div>
-      <Particles />
+      <Particle />
       <Heading />
+      <Vision />
     </div>
   );
 };
