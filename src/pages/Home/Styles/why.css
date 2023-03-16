@@ -1,0 +1,19 @@
+.listOut .list-group-item {
+  color: #3072da;
+  letter-spacing: 1px;
+  border: 0;
+}
+
+.listOut .list-group-item .card-title {
+  color: #8d2cd3;
+}
+
+.iconList {
+  font-size: 100px;
+}
+
+@media only screen and (max-width: 800px) {
+  .whyHead {
+    margin-top: 50%;
+  }
+}

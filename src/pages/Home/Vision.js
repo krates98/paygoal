@@ -18,7 +18,11 @@ const Vision = () => {
       <div className="container text-center belowHeading">
         <div className="row row-cols-auto">
           <div className="col-md" data-aos="fade-left" data-aos-duration="1500">
-            <img src="/images/vision.png" width="100%" />
+            <img
+              className="visionImage"
+              src="/images/vision.png"
+              width="100%"
+            />
           </div>
           <div
             className="col-md d-flex align-items-center"

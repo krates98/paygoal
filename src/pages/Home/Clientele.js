@@ -6,7 +6,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 
 AOS.init();
 
-const Api = () => {
+const Clientele = () => {
   return (
     <div className="vision">
       <div
@@ -14,7 +14,7 @@ const Api = () => {
         data-aos="flip-left"
         data-aos-duration="1500"
       >
-        <h1 className="display-2 apiHead">Seamless PayGoal integration</h1>
+        <h1 className="display-2 clienteleHead">Our Clientele</h1>
       </div>
       <div className="container text-left belowHeading">
         <div class="container">
@@ -58,4 +58,4 @@ const Api = () => {
   );
 };
 
-export default Api;
+export default Clientele;

@@ -5,6 +5,10 @@
   height: 100vh;
 }
 
+.visionImage {
+  border-radius: 30%;
+}
+
 .visionHeading {
   width: 100%;
   text-align: center;
