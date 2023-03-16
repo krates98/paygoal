@@ -1,8 +1,10 @@
 .hubHeadText {
   color: #8d2cd3;
+  font-weight: 700;
 }
 
 .hubSubText {
   color: #3072da;
+  font-weight: 600;
   font-size: 20px !important;
 }
