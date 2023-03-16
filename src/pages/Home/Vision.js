@@ -10,22 +10,22 @@ const Vision = () => {
     <div className="vision">
       <div
         className="visionHeading"
-        data-aos="fade-left"
+        data-aos="flip-left"
         data-aos-duration="1500"
       >
         <h1 className="display-2">Vision & Values</h1>
       </div>
-      <div class="container text-center mt-2 container">
-        <div class="row row-cols-auto">
-          <div class="col-md" data-aos="fade-left" data-aos-duration="1500">
-            <img src="/images/vision.png" width="100%" />
+      <div className="container text-center belowHeading">
+        <div className="row row-cols-auto">
+          <div className="col-md" data-aos="fade-left" data-aos-duration="1500">
+            <img src="/images/direction.png" width="100%" />
           </div>
           <div
-            class="col-md d-flex align-items-center"
+            className="col-md d-flex align-items-center"
             data-aos="fade-right"
             data-aos-duration="1500"
           >
-            <p>
+            <p className="text-left">
               Accept All Payment Modes with our Powerful Dashboard Quickly go
               live with PayGoal and experience the future of payments. Accept
               domestic and international payments with 100+ payment options.

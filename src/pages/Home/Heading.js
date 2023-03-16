@@ -8,7 +8,7 @@ const Heading = () => {
   return (
     <div className="heading">
       <div className="titleBox">
-        <h1 className="display-1" data-aos="flip-left" data-aos-duration="1500">
+        <h1 className="display-1" data-aos="flip-left" data-aos-duration="3000">
           Amplify Your Business With PayGoal!
         </h1>
         <h5>

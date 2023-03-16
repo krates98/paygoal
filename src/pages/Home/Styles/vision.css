@@ -27,10 +27,22 @@
   font-size: 30px;
 }
 
+.text-left {
+  text-align: left !important;
+}
+
+.belowHeading {
+  margin-top: 6%;
+}
+
 @media only screen and (max-width: 800px) {
   .col-md p {
     color: #3072da;
     font-size: 20px;
     margin-top: 10%;
+  }
+
+  .belowHeading {
+    margin-top: 1%;
   }
 }
