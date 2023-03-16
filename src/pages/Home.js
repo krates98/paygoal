@@ -3,6 +3,7 @@ import Particle from "./Home/Particles";
 import Heading from "./Home/Heading";
 import Vision from "./Home/Vision";
 import Blocks from "./Home/Blocks";
+import Api from "./Home/Api";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <Heading />
       <Vision />
       <Blocks />
+      <Api />
     </div>
   );
 };

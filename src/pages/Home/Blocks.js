@@ -9,7 +9,7 @@ const Blocks = () => {
   return (
     <div className="vision">
       <div
-        className="visionHeading mt-3"
+        className="visionHeading"
         data-aos="flip-left"
         data-aos-duration="1500"
       >
