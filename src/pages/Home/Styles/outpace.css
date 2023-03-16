@@ -1,0 +1,15 @@
+.outspaceSub {
+  font-size: 15px !important;
+  font-weight: 600;
+}
+
+.outspaceHead {
+  color: #8d2cd3;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 800px) {
+  .outspaceHeader {
+    margin-top: 70%;
+  }
+}

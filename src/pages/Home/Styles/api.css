@@ -1,3 +1,11 @@
-.blockquote {
-  color: black;
+.listText .list-group-item {
+  color: #3072da;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+  .apiHead {
+    margin-top: 150%;
+  }
 }
